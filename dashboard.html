@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=im, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <img src="images/logo.png">
+
+
+    <div class="sidebar">
+        <ul class="nav">
+            <li>
+                <a href="#">
+                    <i class="fas fa-server"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-users"></i>
+                    <span>Patients</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-calendar"></i>
+                    <span>Appointment</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span>Medical personels</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-calendar"></i>
+                    <span>Claims</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-coins"></i>
+                    <span>Finance</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-message"></i>
+                    <span>messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-gear"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-circle-info"></i>
+                    <span>Help</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-right-from-bracket"></i>
+                    <span>Signout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="column" onclick="openTab('B1');" style="background: orangered;"><p>Active Enrollee 500</p></div>
+    <div class="column" onclick="openTab('b2');" style="background:grey;"><p>Total Visit 500</p></div>
+    <div class="column" onclick="openTab('b3');" style="background:#0b91cf;"><p>Total Claims 500</p></div>
+    <div class="column" onclick="openTab('b3');" style="background:rgb(216, 14, 156);"><p>MPS</p></div>
+</div>
+    </section>
+<section>
+    <h4>Quick Actions</h4>
+    <div class="row2">
+        <div class="column2" onclick="openTab('b1');" style="background: rgb(22, 8, 3);"><p>view Authourisation</p></div>
+        <div class="column2" onclick="openTab('b2');" style="background:rgb(19, 3, 3);"><p>pre-Authorisation</p></div>
+        <div class="column2" onclick="openTab('b3');" style="background:#05030c;">Add-Appointment</div>
+        <div class="column2" onclick="openTab('b3');" style="background:rgb(12, 2, 9);">verify Enrol/checkin</div>
+    </div>
+</section>
+</body>
+</html>
